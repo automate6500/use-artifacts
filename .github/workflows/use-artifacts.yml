@@ -74,3 +74,4 @@ jobs:
           $response = Invoke-RestMethod -Uri "http://localhost:8080/$name" -Method Get
           Write-Output "${timestamp}: $response"
         }
+        
